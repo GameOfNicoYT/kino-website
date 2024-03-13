@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+@import "./scss/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "accent": $accent,
+  )
+);
+
+.background {
+  background-color: $body-bg;
+}
+
+.btn-accent {
+  background-color: $accent;
+  color: $body-color;
+}
