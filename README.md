@@ -4,17 +4,17 @@ If you are a random Person don't bother looking into this Repo, it's just for le
 
 <h2 id="Guidelines">General Guidlines:</h2>
 
-| Name                             | Value   |
-| -------------------------------- | ------- |
-| Language                         | English |
-| Commit message                   | Yes     |
-| Daily commit after stopping work | Yes     |
-| Pushing into another branch      | Yes     |
-| Pushing into the master branch   | No      |
+| Name                             | Value           |
+| -------------------------------- | --------------- |
+| Language                         | English         |
+| Commit message                   | Yes, in english |
+| Daily commit after stopping work | Yes             |
+| Pushing into another branch      | Yes             |
+| Pushing into the master branch   | No              |
 
 <h2 id="pushGuidelines">Push Guidlines:</h2>
 
-If you want to push to the remote Repo you should fork the project and make a PR
+If you want to push to the remote Repo you should make a PR.
 
 <h2 id="commitGuidelines">Commit Guidlines:</h2>
 
@@ -29,4 +29,3 @@ e.g.:
 > added the ... Component because of issue #xxxxxx with the new ... feature
 
 > deleted a few lines of code because ... is not in use anymore
-
